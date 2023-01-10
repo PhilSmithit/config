@@ -6,10 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -178,3 +174,100 @@ Admin Panel -> Agents -> Add New
   <img src="https://i.imgur.com/CO5xu1h.png" width="80%" alt="Disk Sanitization Steps"/>
   <p>
     You can also assign agents different departments and Roles. Such as System Administrator and Supreme Admin.
+    
+ <h2>Configure Users (customers)</h2>
+
+- Ken Ken
+
+<p>
+<img src=https://i.imgur.com/e5wns8V.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ijtr6Lq.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iL8eQa2.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+1. Agent Panel -> User -> Add New
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/0Whplxc.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/D2Z4IJ5.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+  Add new User
+</p>
+<br />
+
+<h2>Configure SLA</h2>
+
+- Sev-A (1 hour, 24/7)
+- Sev B (4 hour, 24/7)
+- Sev C (8 hours, business, hours)
+
+<p>
+<img src="https://i.imgur.com/73PrU7e.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NSLpCzR.png" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>
+  Admin Panel -> Manage -> SLA
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/cPQIruw.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r7fYG9T.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bK2zn8p.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XFVVlU1.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+Sev-A (1 hour, 24/7)
+<p>
+Sev B (4 hour, 24/7)
+<p>
+Sev C (8 hours, business, hours)
+<p>
+
+</p>
+<br />
+
+<h2>Configure Help Topics</h2>
+
+- Business Critical Outage
+- Personal Computer issues
+- Equipment Request
+- Password Reset
+
+<p>
+<img src="https://i.imgur.com/73PrU7e.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ze97U3h.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mWqUgI4.png" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<p>
+Admin Panel -> Manage -> Help Topics
+<p>
+<img src="https://i.imgur.com/jmId7t9.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+
+Business Critical Outage
+
+<img src="https://i.imgur.com/jVXqupV.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+
+Personal Computer issues
+
+<img src="https://i.imgur.com/SJ5wBU5.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+
+Equipment Request
+
+
+<img src="https://i.imgur.com/SbpLLiD.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+
+Password Reset
+
+
+
+
+
+
