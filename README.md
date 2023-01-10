@@ -30,8 +30,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configure Roles</h2>
 
 - Supreme Admin
+<p> <strong>Roles</strong> are the permissions granted to Agents per Department that they have access to. Each Role has a set of permissions that can be checked/unchecked for agents given that Role in association with a Department they have access to. An unlimited number of roles can be created and assigned to Agents with access to various departments.
 
-<p>
+<p> 
 <img src="https://i.imgur.com/gmx5RSz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -95,6 +96,7 @@ Under "Permissions" -> "Tickets" Check all boxes
 
 - Level I
 - Level II
+<p> <strong>Teams</strong> allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter.
 
 </p>
 <br />
@@ -136,3 +138,43 @@ Under "Permissions" -> "Tickets" Check all boxes
 3. Save Changes
 </p>
 <br />
+
+<h2>Configure Agents (workers)</h2>
+
+-Jane
+-John
+
+<p> <strong>Agents</strong> are given access to the help desk with the intent to respond and resolve the tickets. When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department. Agents can be given Extended Access to additional departments of the help desk as well as assigned different Roles to those departments; this can be configured in the Access tab of the Agent’s Profile.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6yYFjv3.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Admin Panel -> Agents -> Add New
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6OgU7Vx.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  1. Add "Jane Doe" in first and last name
+<p>
+  2. Email Address can be anything i just put "jane.doe@osticket"
+<p>
+  3. In Username put as "jane.doe"
+<p>
+<img src="https://i.imgur.com/zKbQpBi.png" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+  Here you can set the password for the agents or send the agent a password reset email
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DW4Q9So.png" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/CO5xu1h.png" width="80%" alt="Disk Sanitization Steps"/>
+  <p>
+    You can also assign agents different departments and Roles. Such as System Administrator and Supreme Admin.
